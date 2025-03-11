@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="img\logo-.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Gate</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div>
+                <img src="img/logo-.png" class="navlogo">
+                <h4>Future Gate</h4>
+                <!-- Toggle Button for Mobile -->
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+                <!-- Navigation Links -->
+                <ul class="main-nav">
+                    <li><a class="a2" href="#home"><span>Home</span></a></li>
+                    <li><a class="a2" href="#features"><span>Our Features</span></a></li>
+                    <li><a class="a2" href="#about_us"><span>About us</span></a></li>
+                    <li><a class="a2" href="#contact_us"><span>Contact us</span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Section  -->
+    <section id="home" class="home">
+        <div class="background-section"> </div> 
+        <div class="hometext">
+          <h2>Build Your Future Now 🚀</h2>
+          <p>The Ultimate Guide to Enhancing Your Skills, CV, and Finding the Best Opportunities!</p>
+          <div class="homebtn">
+            <button class="homebtn1 hb" type="button">
+              <a href="#Take_Action" class="btna1">Download Now</a>
+            </button>
+            <button class="homebtn2 hb" type="button">
+              <a href="#features" class="btna2">Learn more</a> <br>
+            </button>
+          </div>
+        </div>
+        <div class="homelogo">
+          <img src="img/screen1.png" class="hlogoo" alt="Home Image">
+          <img src="img/future gate screen.png" class="hlogo" alt="Home Image">
+          <img src="img/screen 2.png" class="hlogooo" alt="Home Image">
+        </div>
+      </section> 
+      <br><br><br><br><br><br><br><br>
+  
+  
+  
+<!-- Features Section -->
+<section id="features" class="features">
+    <div class="container">
+        <h2 class="section-title">Our Features</h2>
+        <div class="features-grid">
+            <div class="feature-item">
+                <div class="icon">🎯</div>
+                <h3>Discover Your Field</h3>
+                <p>Find the best field for you through career videos and detailed roadmaps.</p>
+            </div>
+            <div class="feature-item">
+                <div class="icon">📚</div>
+                <h3>Training Courses</h3>
+                <p>Access top courses in technology with trusted institutions after choosing your field.</p>
+            </div>
+            <div class="feature-item">
+                <div class="icon">📝</div>
+                <h3>Assessment Levels</h3>
+                <p>Take our three-level tests to evaluate your knowledge.</p>
+            </div>
+            <div class="feature-item">
+                <div class="images"><img src="img/chatbot.png" alt="ATS CV"></div>
+                <h3>AI-Powered ATS CV Check</h3>
+                <p>Upload your CV, get an ATS compatibility score, and receive AI-powered improvement tips.</p>
+            </div>
+            <div class="feature-item">
+              <div class="images"><img src="img/working-man.png" alt="Internship"></div>
+              <h3>Internship Opportunities</h3>
+                <p>Get access to verified internships that prepare you for the job market.</p>
+            </div>
+            <div class="feature-item">
+                <div class="icon">🔔</div>
+                <h3>Push Up Notification</h3>
+                <p>Stay up to date with industry trends and opportunities.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- About Us Section -->
+<section id="about_us" class="about_us">
+    <div class="container">
+        <h2 class="section-title">About Us</h2>
+        <div class="about-wrapper">
+            <div class="about-image">
+                <img src="img/about us.jpeg" alt="Career Path Ladder">
+            </div>
+            
+            <div class="about-text">
+                <p>
+                    Future Gate was created to bridge the gap between students and the professional world. 
+                    We provide students with the tools, resources, and opportunities needed to navigate their career path with confidence.
+                </p>
+                <p>
+                    With Future Gate, you can discover, learn, and grow all of these in one application.
+                </p>
+            </div>
+            
+        </div>
+        <p class="join-us">
+          <img src="img/logo-.png" alt="Join Us Icon">
+          Join us and build your future!
+      </p>
+    </div>
+</section>
+
+
+
+
+
+<!-- Contact Us Section -->
+<section id="contact_us" class="contact_us">
+    <div class="container">
+        <h2 class="section-title">Contact Us</h2><br>
+        <p class="contact-text" style="color: rgb(63, 98, 255);">Have questions? Reach out to us!</p>
+
+
+        <!-- Social Media Links -->
+        <div class="social-links">
+            <a href="https://www.facebook.com/YourRealPage" target="_blank" class="social-icon">
+                <img src="img/facebook.png" alt="Facebook" width="30">
+            </a>
+            <a href="https://www.instagram.com/YourRealPage" target="_blank" class="social-icon">
+                <img src="img/social.png" alt="Instagram" width="30">
+            </a>
+            <a href="mailto:mashrona12@gmail.com" class="social-icon">
+                <img src="img/gmail.png" alt="Gmail" width="30">
+            </a>
+            
+        </div>
+        
+    </div>
+</section>
+
+<script>
+    const navToggle = document.querySelector('.nav-toggle');
+    const mainNav = document.querySelector('.main-nav');
+
+    navToggle.addEventListener('click', () => {
+        mainNav.classList.toggle('active');
+        navToggle.classList.toggle('active');
+    });
+</script>
+
+
+
+
+    
+</body>
+</html>
