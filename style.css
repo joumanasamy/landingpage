@@ -486,14 +486,14 @@ ul li .a2:hover:before {
   .hlogo,
   .hlogoo,
   .hlogooo {
-    height: 220px; /* Fixed height for all images on mobile */
+    height: 200px; /* Fixed height for all images on mobile */
     width: auto; /* Allow width to adjust automatically */
     margin-right: 0; /* Reset margins */
     margin-left: 0; /* Reset margins */
   }
 
   .hlogo {
-    width: 100px; /* Adjust width for the center image */
+    width: 200px; /* Adjust width for the center image */
   }
 
   .hlogoo,
